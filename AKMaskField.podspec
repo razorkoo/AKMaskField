@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
 	s.ios.deployment_target = "8.0"
 
 	s.source       	= { 
-		:git => "https://github.com/artemkrachulov/AKMaskField.git", 
-		:tag => 'v'+s.version.to_s 
+		:git => "https://github.com/razorkoo/AKMaskField.git",
+		:branch => 'swift42'
 	}
 
  	s.source_files  = "AKMaskField/*.{swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
